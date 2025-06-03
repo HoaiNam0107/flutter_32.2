@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package follow;
+
+service FollowService {
+  rpc FollowUser (FollowRequest) returns (FollowResponse) {}
+
+  rpc FollowStream (stream FollowStreamRequest) returns (stream FollowStreamResponse) {}
+}
+
+message FollowRequest {
+  string follower_id = 1;
+  string followed_id = 2;
+}
+
+message FollowResponse {
+  bool success = 1;
+  string message = 2;
+}
+
+message FollowStreamRequest {
+  string user_id = 1;
+}
+
+message FollowStreamResponse {
+  string user_id = 1;
+  int32 follower_count = 2;
+}

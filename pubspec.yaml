@@ -1,0 +1,39 @@
+name: custom_scroll
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  dio: ^5.8.0+1
+  flutter_bloc: ^9.1.1
+  flutter_secure_storage: ^9.2.4
+  http_certificate_pinning: ^3.0.1
+  equatable: ^2.0.7
+  encrypt: ^5.0.3
+  go_router: ^15.1.2
+  grpc: ^4.0.4
+  protobuf: ^4.1.0
+  snackbarx: ^1.0.0
+  flutter_enhanced_dialog: ^1.0.0
+  animated_notification: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/images/

@@ -1,0 +1,4 @@
+bricks:
+  clean_architecture_folders_lib: 1.0.0+6
+  clean_architecture_feature:
+    path: ./clean_architecture_feature
