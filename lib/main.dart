@@ -1,10 +1,11 @@
-import 'package:custom_scroll/utils/animated_nofi.dart';
+// Project: flutter_widget_guide
+import 'package:custom_scroll/tiktok_clone_ui/views/home_tiktok_screen.dart';
 import 'package:custom_scroll/utils/expansible/expansible_example.dart';
-import 'package:custom_scroll/utils/snack_barx.dart';
+import 'package:custom_scroll/utils/tinder_card/tinder_swipe_card_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:snackbarx/snackbarx.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   SnackbarX.init();
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Custom Snackbar Demo',
       theme: ThemeData(primarySwatch: Colors.blue, useMaterial3: true),
-      home: const ExpansibleExample(),
+      home: const HomeTiktokScreen(),
     );
   }
 }

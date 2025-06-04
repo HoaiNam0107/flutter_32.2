@@ -23,12 +23,18 @@ dependencies:
   snackbarx: ^1.0.0
   flutter_enhanced_dialog: ^1.0.0
   animated_notification: ^1.0.0
+  concentric_transition: ^1.0.3
+  flutter_card_swiper: ^7.0.2
+  provider: ^6.1.5
+  video_player: ^2.10.0
+
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
 
 flutter:
 
@@ -37,3 +43,5 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/video/
+
