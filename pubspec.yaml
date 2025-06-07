@@ -20,15 +20,15 @@ dependencies:
   go_router: ^15.1.2
   grpc: ^4.0.4
   protobuf: ^4.1.0
-  snackbarx: ^1.0.0
+  snackbarx: ^1.0.1
   flutter_enhanced_dialog: ^1.0.0
   animated_notification: ^1.0.0
   concentric_transition: ^1.0.3
   flutter_card_swiper: ^7.0.2
   provider: ^6.1.5
   video_player: ^2.10.0
-
-
+  flutter_dynamic_icon: ^2.1.0
+  uni_links: ^0.5.1
 
 dev_dependencies:
   flutter_test:
